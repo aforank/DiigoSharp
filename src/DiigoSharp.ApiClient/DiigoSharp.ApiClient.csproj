@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	 <PropertyGroup>
+		<VersionPrefix>1.0.0-preview</VersionPrefix>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<PackageId>Diigo.Sharp</PackageId>
+		<Authors>Ankit Sharma</Authors>
+		<Description>A Diigo API dotnet client</Description>
+		<RepositoryUrl>https://github.com/aforank/diigo-sdk-dotnet</RepositoryUrl>
+		<PackageTags>diigo;client;api;sdk;dotnet;csharp</PackageTags>
+		<PackageIcon>diigo-logo.png</PackageIcon>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	 </PropertyGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Ardalis.GuardClauses" Version="4.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Net.Http.Headers" Version="2.2.8" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
