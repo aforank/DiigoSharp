@@ -9,4 +9,4 @@
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/aforank/diigosharp)]()
 [![GitHub](https://img.shields.io/github/license/aforank/diigosharp)]()
 
-[![Build Status](https://github.com/aforank/DiigoSharp/actions/workflows/build.yml/badge.svg)](https://github.com/aforank/DiigoSharp/actions/workflows/build.yml)
+[![.NET](https://github.com/aforank/DiigoSharp/actions/workflows/build.yml/badge.svg)](https://github.com/aforank/DiigoSharp/actions/workflows/build.yml)
