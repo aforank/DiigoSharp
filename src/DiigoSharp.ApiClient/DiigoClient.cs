@@ -45,8 +45,8 @@ namespace DiigoSharp.ApiClient
             }
             else
             {
-                var message = response.Content.ReadAsStringAsync().ConfigureAwait(false);
-                throw new DiigoClientException(response.StatusCode);
+                var message = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+                throw new DiigoClientException(response.StatusCode, message);
             }
         }
 
@@ -63,8 +63,8 @@ namespace DiigoSharp.ApiClient
             }
             else
             {
-                var message = response.Content.ReadAsStringAsync().ConfigureAwait(false);
-                throw new DiigoClientException(response.StatusCode);
+                var message = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+                throw new DiigoClientException(response.StatusCode, message);
             }
         }
 

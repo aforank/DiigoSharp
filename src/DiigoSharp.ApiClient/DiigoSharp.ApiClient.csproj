@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	 <PropertyGroup>
 		<VersionPrefix>1.0.0-preview</VersionPrefix>
@@ -8,11 +8,11 @@
 
 		<PackageId>Diigo.Sharp</PackageId>
 		<Authors>Ankit Sharma</Authors>
-		<Description>A Diigo API dotnet client</Description>
+		<Description>Diigo SDK for DotNet</Description>
 		<RepositoryUrl>https://github.com/aforank/diigo-sdk-dotnet</RepositoryUrl>
 		<PackageTags>diigo;client;api;sdk;dotnet;csharp</PackageTags>
-		<PackageIcon>diigo-logo.png</PackageIcon>
-		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<PackageIcon>diigo-logo.svg</PackageIcon>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 	 </PropertyGroup>
 	
@@ -25,5 +25,20 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\assets\diigo-logo.svg">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
