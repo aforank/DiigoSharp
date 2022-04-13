@@ -9,7 +9,7 @@
 		<PackageId>Diigo.Sharp</PackageId>
 		<Authors>Ankit Sharma</Authors>
 		<Description>Diigo SDK for DotNet</Description>
-		<RepositoryUrl>https://github.com/aforank/diigo-sdk-dotnet</RepositoryUrl>
+		<RepositoryUrl>https://github.com/aforank/diigosharp</RepositoryUrl>
 		<PackageTags>diigo;client;api;sdk;dotnet;csharp</PackageTags>
 		<PackageIcon>diigo-logo.png</PackageIcon>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
