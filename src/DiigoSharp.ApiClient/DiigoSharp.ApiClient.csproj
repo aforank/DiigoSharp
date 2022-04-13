@@ -11,7 +11,7 @@
 		<Description>Diigo SDK for DotNet</Description>
 		<RepositoryUrl>https://github.com/aforank/diigo-sdk-dotnet</RepositoryUrl>
 		<PackageTags>diigo;client;api;sdk;dotnet;csharp</PackageTags>
-		<PackageIcon>diigo-logo.svg</PackageIcon>
+		<PackageIcon>diigo-logo.png</PackageIcon>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 	 </PropertyGroup>
@@ -27,7 +27,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<None Include="..\..\assets\diigo-logo.svg">
+		<None Include="..\..\assets\diigo-logo.png">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
