@@ -30,6 +30,9 @@ Provides the following packages:
 |---|---|---|
 | Diigo.Sharp | [![Nuget](https://img.shields.io/nuget/dt/Diigo.Sharp?color=success)](https://www.nuget.org/packages/Diigo.Sharp) | [![Nuget](https://img.shields.io/nuget/v/Diigo.Sharp) ![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Diigo.Sharp)](https://www.nuget.org/packages/Diigo.Sharp) |
 
+## Documenation
+Refer [Diigo API Documentation](https://www.diigo.com/api_dev/docs#section-key) and Sample Project in this Repository
+
 ## Contributors
 This project exists thanks to all the people who contribute.
 
